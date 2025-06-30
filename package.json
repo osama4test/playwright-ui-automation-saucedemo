@@ -1,0 +1,21 @@
+{
+  "name": "playwright-ui-framework-saucedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^24.0.7",
+    "allure-playwright": "^3.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  }
+}
