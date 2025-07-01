@@ -29,9 +29,9 @@ export default defineConfig({
         browserName: 'chromium',
         headless: false,
         // ✅ slowMo is valid HERE
-        // launchOptions: {
-        //   slowMo: 10
-        // }
+        launchOptions: {
+          slowMo: 10
+        }
       }
     }
   ]
