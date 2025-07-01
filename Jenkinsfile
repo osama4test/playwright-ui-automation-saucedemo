@@ -5,6 +5,12 @@ pipeline {
     nodejs 'node18' // Make sure this is configured in Jenkins under Global Tool Configuration
   }
 
+  environment {
+    BASE_URL = 'https://www.saucedemo.com'
+    TEST_USER = 'standard_user'
+    TEST_PASS = 'secret_sauce'
+  }
+
   stages {
     stage('Install Dependencies') {
       steps {
